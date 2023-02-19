@@ -7,7 +7,28 @@
 }
 
 body {
+	position: relative;
 	font-family: 'Montserrat', sans-serif;
-	// position: relative;
-	background-color: #444;
+	background-color: #777;
 }
+
+nav {
+	a.navbar-brand{
+		font-weight: bold;
+		// color:rgb(0, 55, 255);
+
+		}
+		
+
+	}
+	a.nav-link{
+		text-transform: uppercase;
+	}
+	a.nav-link:hover{
+		font-weight: bold;
+		// color:rgb(0, 55, 255);
+	}
+	a.active{
+		color:rgb(0, 55, 255);
+	}
+

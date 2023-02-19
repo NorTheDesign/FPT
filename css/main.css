@@ -10,21 +10,27 @@
 body {
   position: relative;
   font-family: "Montserrat", sans-serif;
-  background-color: #777;
+  background-color: #979dac;
 }
 
+nav i {
+  padding: 10px;
+}
+nav a.active {
+  font-weight: bold;
+  color: #002855 !important;
+}
 nav a.navbar-brand {
   font-weight: bold;
+  color: #002855;
 }
-
-a.nav-link {
+nav a.navbar-brand:hover {
+  color: #001233;
+}
+nav a.nav-link {
   text-transform: uppercase;
 }
-
-a.nav-link:hover {
-  font-weight: bold;
-}
-
-a.active {
-  color: rgb(0, 55, 255);
+nav a.nav-link:hover {
+  font-weight: 600;
+  color: #002855;
 }/*# sourceMappingURL=main.css.map */
